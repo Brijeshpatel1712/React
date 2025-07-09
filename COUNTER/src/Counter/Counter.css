@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(77, 172, 144);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.counter-card {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 320px;
+  transition: transform 0.3s ease;
+}
+
+.counter-card:hover {
+  transform: scale(1.03);
+}
+
+.app-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.value-display {
+  font-size: 60px;
+  font-weight: bold;
+  color: #0077ff;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+button {
+  padding: 13px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  background: #0077ff;
+  transition: background 0.25s, transform 0.1s;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+button:active {
+  transform: scale(0.97);
+}
