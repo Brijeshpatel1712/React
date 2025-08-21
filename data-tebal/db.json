@@ -1,0 +1,182 @@
+{
+  "products": [
+    {
+      "id": "75f5",
+      "image": "https://m.media-amazon.com/images/I/61oCISLE+PL.jpg",
+      "price": "1,900",
+      "description": "Apple AirPods 4"
+    },
+    {
+      "id": "20f1",
+      "image": "https://img.tatacliq.com/images/i18//437Wx649H/MP000000022909140_437Wx649H_202407141233281.jpeg",
+      "price": "1,599",
+      "description": "Buy Realme Buds Air 6 In Ear BT"
+    },
+    {
+      "id": "3bd0",
+      "image": "https://images-cdn.ubuy.co.in/64f05af722cc390e031ce77d-airbuds-3-with-charging-case-3nd.jpg",
+      "price": "6,699",
+      "description": "GOOPRO Airbuds 3rd Gen Wireless Earbuds with Charging Case"
+    },
+    {
+      "id": "6e3c",
+      "image": "https://m.media-amazon.com/images/X/bxt1/M/Dbxt1RvtLkSvJQa._SL828_QL90_FMwebp_.png",
+      "price": "6,750",
+      "description": "Buy truke Air Buds Bluetooth Earbuds With Ai Noise Cancellation"
+    },
+    {
+      "id": "9555",
+      "image": "https://dms.mydukaan.io/original/jpeg/upload_file_service/b2b18eb6-2d61-4b37-b17e-1eb8e9019a61/61wnfkjf1el-sx679.jpg",
+      "price": "1,600",
+      "description": "Realme Buds Air 3 Neo True Wireless in-Ear Earbuds with Mic"
+    },
+    {
+      "id": "0ce2",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaKYJjWIvEMX4q8ZAyOIdVmXk9SQjkEjPwyg&s",
+      "price": "1,999",
+      "description": "realme Buds Air 3 "
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "email": "user1@example.com",
+      "password": "password1",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "user2@example.com",
+      "password": "password2",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "email": "user3@example.com",
+      "password": "password3",
+      "role": "user"
+    },
+    {
+      "id": "1",
+      "email": "user1@example.com",
+      "password": "password1",
+      "role": "admin"
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "abc123",
+      "id": "4",
+      "role": "admin"
+    },
+    {
+      "email": "xyz@gmail.com",
+      "password": "xyz123",
+      "id": "5"
+    },
+    {
+      "email": "xyz@gmail.com",
+      "password": "xyz123",
+      "id": "6"
+    },
+    {
+      "email": "xyz@gmail.com",
+      "password": "xyz123",
+      "id": "7"
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "123",
+      "id": "8"
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "abc",
+      "id": "9"
+    },
+    {
+      "id": "25c5",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "dfd"
+    },
+    {
+      "id": "c279",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "dfd"
+    },
+    {
+      "id": "c04b",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "dfd"
+    },
+    {
+      "id": "1190",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "dfd"
+    },
+    {
+      "id": "a680",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "dfd"
+    },
+    {
+      "id": "a3ab",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "briesh@12"
+    },
+    {
+      "id": "5271",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "briesh@12"
+    },
+    {
+      "id": "c713",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "briesh@12"
+    },
+    {
+      "id": "7ab5",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "briesh@12"
+    },
+    {
+      "id": "fb32",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "briesh@12"
+    },
+    {
+      "id": "759a",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "briesh@12"
+    },
+    {
+      "id": "2f11",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "briesh@12"
+    },
+    {
+      "id": "96cf",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "briesh@12"
+    },
+    {
+      "id": "cabc",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "briesh@12"
+    },
+    {
+      "id": "06dc",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "briesh@12"
+    },
+    {
+      "id": "909a",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "wdws"
+    },
+    {
+      "id": "7db5",
+      "email": "brijeshsangani088@gmail.com",
+      "password": "dfwdw"
+    }
+  ]
+}

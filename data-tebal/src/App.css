@@ -1,0 +1,313 @@
+.mehul {
+  float: right;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 300px; /* Optional: Adjust width */
+  margin: auto; /* Center horizontally */
+  background: #f5f5f5; /* Optional: Background color */
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow */
+}
+
+input[type="text"],
+input[type="url"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Main container styling */
+.mainpage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* All links inside the navbar */
+#kanu {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+#kanu:hover {
+  color: #0dcaf0; /* Bootstrap info color */
+}
+
+/* Right-side container (Login + Logout) */
+.mehul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Logout button styling */
+.mehul button {
+  background-color: #dc3545; /* Bootstrap danger color */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mehul button:hover {
+  background-color: #bb2d3b;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar container */
+.mainpage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343a40; /* Bootstrap dark */
+  padding: 0.5rem 1rem;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Navigation Links Container */
+.kanu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Group of links (home, product, etc.) */
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Link Styling */
+.links a, .mehul a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.links a:hover, .mehul a:hover {
+  text-decoration: underline;
+  color: #ffc107; /* Optional: Bootstrap warning color */
+}
+
+/* Login + Logout section */
+.mehul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Logout button */
+.mehul button {
+  padding: 5px 10px;
+  background-color: #dc3545; /* Bootstrap danger */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.mehul button:hover {
+  background-color: #c82333;
+}
+
+
+
+
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  /* Background image */
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;      /* Image covers whole container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+
+  /* Optional: add overlay to darken image for readability */
+  position: relative;
+  color: white; /* Text color white on dark bg */
+}
+
+/* Optional overlay */
+.page-container::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+  z-index: 0;
+}
+
+/* Make sure content is above overlay */
+.content, .footer {
+  position: relative;
+  z-index: 1;
+}
+
+/* Content styles */
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  text-align: center;
+}
+
+/* Footer styles */
+.footer {
+  background-color: rgba(30, 39, 46, 0.8);
+  color: #d2dae2;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.95rem;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 1;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  border: 2px solid #ced4da;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #ba2334;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  color: #212529;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #495057;
+  margin: 5px 0;
+}
+
+.product-card h4 {
+  color: #6c757d;
+  font-weight: normal;
+}
