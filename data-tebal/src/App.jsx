@@ -20,12 +20,12 @@ function App() {
 <Navbar>
         <Container className='mainpage' >
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="kanu ">
-          <div className="links"><Link to={"/Home"} id="kanu" >home</Link>
+          <Nav className="brijesh ">
+          <div className="links"><Link to={"/Home"} id="brijesh" >home</Link>
              <Link to={"/Product"} id="brijesh" >product</Link>
-                <Link to={"/Addproduct"} id="kanu" >Addproduct</Link></div>
-                  <div className="mehul">
-                      <Link to={"/login"} id="kanu" >Login </Link>
+                <Link to={"/Addproduct"} id="brijesh" >Addproduct</Link></div>
+                  <div className="nisarg">
+                      <Link to={"/login"} id="brijesh" >Login </Link>
                     <button onClick={handleLogout}>logout</button>  
                   </div>
           </Nav>
