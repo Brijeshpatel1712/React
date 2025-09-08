@@ -1,0 +1,129 @@
+.mehul {
+  float: right;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 300px; /* Optional: Adjust width */
+  margin: auto; /* Center horizontally */
+  background: #f5f5f5; /* Optional: Background color */
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow */
+}
+
+input[type="text"],
+input[type="url"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Main container styling */
+.mainpage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* All links inside the navbar */
+#kanu {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+#kanu:hover {
+  color: #0dcaf0; /* Bootstrap info color */
+}
+
+/* Right-side container (Login + Logout) */
+.mehul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Logout button styling */
+.mehul button {
+  background-color: #dc3545; /* Bootstrap danger color */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mehul button:hover {
+  background-color: #bb2d3b;
+}
+
+
+
+.page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+}
+
+/* Center content */
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Glass-style heading */
+.content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1.5rem 3rem;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Footer */
+.footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  backdrop-filter: blur(5px);
+}
+
+
+
+
+
