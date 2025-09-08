@@ -1,0 +1,297 @@
+.mehul {
+  float: right;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 300px; /* Optional: Adjust width */
+  margin: auto; /* Center horizontally */
+  background: #f5f5f5; /* Optional: Background color */
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow */
+}
+
+input[type="text"],
+input[type="url"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Main container styling */
+.mainpage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* All links inside the navbar */
+#brijesh {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+#brijesh:hover {
+  color: #0dcaf0; /* Bootstrap info color */
+}
+
+/* Right-side container (Login + Logout) */
+.mehul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Logout button styling */
+.mehul button {
+  background-color: #dc3545; /* Bootstrap danger color */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mehul button:hover {
+  background-color: #bb2d3b;
+}
+/* ===== Container ===== */
+.products-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== Heading ===== */
+.products-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* ===== Update Input and Button ===== */
+.update-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.update-section input {
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-right: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.update-section input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.update-section button {
+  background-color: #0816e6;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.update-section button:hover {
+  background-color: #218838;
+}
+
+/* ===== Product Grid ===== */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* ===== Product Card ===== */
+.product-card {
+  border: 2px solid #000;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  border-radius: 8px;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.product-card p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #555;
+}
+
+.product-card h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 8px;
+}
+
+/* ===== Buttons on Product Card ===== */
+.product-card button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.product-card button:first-child {
+  background-color: #007bff;
+  color: white;
+}
+
+.product-card button:first-child:hover {
+  background-color: #0056b3;
+}
+
+.product-card button:last-child {
+  background-color: #d242a4;
+  color: white;
+}
+
+.product-card button:last-child:hover {
+  background-color: #fb0019;
+}
+
+/* ===== Pagination ===== */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.pagination button:active {
+  transform: scale(0.95);
+}
+
+.pagination span {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 480px) {
+  .update-section input {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+
+  .update-section button {
+    width: 30%;
+  }
+
+  .product-card img {
+    height: 150px;
+  }
+
+  .product-card h3 {
+    font-size: 1rem;
+  }
+
+  .product-card p,
+  .product-card h4 {
+    font-size: 0.9rem;
+  }
+}
+
+/* Home.css */
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://img.freepik.com/free-photo/futuristic-metaverse-empty-room-product-display-presentation-abstract-technology-scifi-with-neon-light-3d-background_56104-2314.jpg'); /* adjust path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+  color: white; /* ensure text is visible on background */
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.5); /* optional: semi-transparent footer */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
